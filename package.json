@@ -35,7 +35,9 @@
     "pretest": "eslint 'lib/**/*.js' 'test/**/*.js'",
     "test": "tap 'test/tap/**/*.js'",
     "coverage": "tap 'test/tap/**/*.js' --cov",
-    "codecov": "tap 'test/tap/**/*.js' --cov --coverage-report=lcov && codecov"
+    "codecov": "tap 'test/tap/**/*.js' --cov --coverage-report=lcov && codecov",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "directories": {
     "test": "test",
@@ -46,7 +48,8 @@
     "date-format": "^1.2.0",
     "debug": "^3.1.0",
     "semver": "^5.3.0",
-    "streamroller": "^0.7.0"
+    "streamroller": "^0.7.0",
+    "snyk": "^1.653.0"
   },
   "devDependencies": {
     "codecov": "^3.0.0",
@@ -103,5 +106,6 @@
     "require": [
       "./test/sandbox-coverage"
     ]
-  }
+  },
+  "snyk": true
 }
