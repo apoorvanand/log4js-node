@@ -1,0 +1,120 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.21.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - mailgun-js > proxy-agent > debug:
+        patched: '2021-07-05T22:38:37.297Z'
+    - mailgun-js > proxy-agent > http-proxy-agent > debug:
+        patched: '2021-07-05T22:38:37.297Z'
+    - mailgun-js > proxy-agent > https-proxy-agent > debug:
+        patched: '2021-07-05T22:38:37.297Z'
+    - mailgun-js > proxy-agent > pac-proxy-agent > debug:
+        patched: '2021-07-05T22:38:37.297Z'
+    - mailgun-js > proxy-agent > pac-proxy-agent > http-proxy-agent > debug:
+        patched: '2021-07-05T22:38:37.297Z'
+    - mailgun-js > proxy-agent > pac-proxy-agent > https-proxy-agent > debug:
+        patched: '2021-07-05T22:38:37.297Z'
+    - mailgun-js > proxy-agent > pac-proxy-agent > get-uri > debug:
+        patched: '2021-07-05T22:38:37.297Z'
+  'npm:extend:20180424':
+    - hipchat-notifier > request > extend:
+        patched: '2021-07-05T22:38:37.297Z'
+    - loggly > request > extend:
+        patched: '2021-07-05T22:38:37.297Z'
+    - mailgun-js > proxy-agent > extend:
+        patched: '2021-07-05T22:38:37.297Z'
+    - slack-node > requestretry > extend:
+        patched: '2021-07-05T22:38:37.297Z'
+    - slack-node > requestretry > request > extend:
+        patched: '2021-07-05T22:38:37.297Z'
+    - mailgun-js > proxy-agent > agent-base > extend:
+        patched: '2021-07-05T22:38:37.297Z'
+    - mailgun-js > proxy-agent > http-proxy-agent > extend:
+        patched: '2021-07-05T22:38:37.297Z'
+    - mailgun-js > proxy-agent > https-proxy-agent > extend:
+        patched: '2021-07-05T22:38:37.297Z'
+    - mailgun-js > proxy-agent > socks-proxy-agent > extend:
+        patched: '2021-07-05T22:38:37.297Z'
+    - mailgun-js > proxy-agent > pac-proxy-agent > extend:
+        patched: '2021-07-05T22:38:37.297Z'
+    - mailgun-js > proxy-agent > http-proxy-agent > agent-base > extend:
+        patched: '2021-07-05T22:38:37.297Z'
+    - mailgun-js > proxy-agent > https-proxy-agent > agent-base > extend:
+        patched: '2021-07-05T22:38:37.297Z'
+    - mailgun-js > proxy-agent > socks-proxy-agent > agent-base > extend:
+        patched: '2021-07-05T22:38:37.297Z'
+    - mailgun-js > proxy-agent > pac-proxy-agent > agent-base > extend:
+        patched: '2021-07-05T22:38:37.297Z'
+    - mailgun-js > proxy-agent > pac-proxy-agent > http-proxy-agent > extend:
+        patched: '2021-07-05T22:38:37.297Z'
+    - mailgun-js > proxy-agent > pac-proxy-agent > https-proxy-agent > extend:
+        patched: '2021-07-05T22:38:37.297Z'
+    - mailgun-js > proxy-agent > pac-proxy-agent > get-uri > extend:
+        patched: '2021-07-05T22:38:37.297Z'
+    - mailgun-js > proxy-agent > pac-proxy-agent > socks-proxy-agent > extend:
+        patched: '2021-07-05T22:38:37.297Z'
+    - mailgun-js > proxy-agent > pac-proxy-agent > http-proxy-agent > agent-base > extend:
+        patched: '2021-07-05T22:38:37.297Z'
+    - mailgun-js > proxy-agent > pac-proxy-agent > https-proxy-agent > agent-base > extend:
+        patched: '2021-07-05T22:38:37.297Z'
+    - mailgun-js > proxy-agent > pac-proxy-agent > socks-proxy-agent > agent-base > extend:
+        patched: '2021-07-05T22:38:37.297Z'
+  'npm:hoek:20180212':
+    - hipchat-notifier > request > hawk > hoek:
+        patched: '2021-07-05T22:38:37.297Z'
+    - hipchat-notifier > request > hawk > boom > hoek:
+        patched: '2021-07-05T22:38:37.297Z'
+    - hipchat-notifier > request > hawk > sntp > hoek:
+        patched: '2021-07-05T22:38:37.297Z'
+    - slack-node > requestretry > request > hawk > hoek:
+        patched: '2021-07-05T22:38:37.297Z'
+    - slack-node > requestretry > request > hawk > boom > hoek:
+        patched: '2021-07-05T22:38:37.297Z'
+    - hipchat-notifier > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-07-05T22:38:37.297Z'
+    - slack-node > requestretry > request > hawk > sntp > hoek:
+        patched: '2021-07-05T22:38:37.297Z'
+    - slack-node > requestretry > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-07-05T22:38:37.297Z'
+    - loggly > request > hawk > hoek:
+        patched: '2021-07-05T22:38:37.297Z'
+    - loggly > request > hawk > boom > hoek:
+        patched: '2021-07-05T22:38:37.297Z'
+    - loggly > request > hawk > sntp > hoek:
+        patched: '2021-07-05T22:38:37.297Z'
+    - loggly > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-07-05T22:38:37.297Z'
+  SNYK-JS-LODASH-567746:
+    - hipchat-notifier > lodash:
+        patched: '2021-07-05T22:38:37.297Z'
+    - mailgun-js > async > lodash:
+        patched: '2021-07-05T22:38:37.297Z'
+    - slack-node > requestretry > lodash:
+        patched: '2021-07-05T22:38:37.297Z'
+  'npm:ms:20170412':
+    - mailgun-js > proxy-agent > debug > ms:
+        patched: '2021-07-05T22:38:37.297Z'
+    - mailgun-js > proxy-agent > http-proxy-agent > debug > ms:
+        patched: '2021-07-05T22:38:37.297Z'
+    - mailgun-js > proxy-agent > https-proxy-agent > debug > ms:
+        patched: '2021-07-05T22:38:37.297Z'
+    - mailgun-js > proxy-agent > pac-proxy-agent > debug > ms:
+        patched: '2021-07-05T22:38:37.297Z'
+    - mailgun-js > proxy-agent > pac-proxy-agent > http-proxy-agent > debug > ms:
+        patched: '2021-07-05T22:38:37.297Z'
+    - mailgun-js > proxy-agent > pac-proxy-agent > https-proxy-agent > debug > ms:
+        patched: '2021-07-05T22:38:37.297Z'
+    - mailgun-js > proxy-agent > pac-proxy-agent > get-uri > debug > ms:
+        patched: '2021-07-05T22:38:37.297Z'
+  'npm:stringstream:20180511':
+    - hipchat-notifier > request > stringstream:
+        patched: '2021-07-05T22:38:37.297Z'
+    - loggly > request > stringstream:
+        patched: '2021-07-05T22:38:37.297Z'
+    - slack-node > requestretry > request > stringstream:
+        patched: '2021-07-05T22:38:37.297Z'
+  'npm:tunnel-agent:20170305':
+    - loggly > request > tunnel-agent:
+        patched: '2021-07-05T22:38:37.297Z'
